@@ -1,14 +1,24 @@
-# Vivado files
+# Vivado (CRITICAL)
 *.xpr
+*.bit
+*.bin
+*.hwh
 *.log
 *.jou
-*.str
-*.cache/
-*.hw/
-*.ip_user_files/
-*.runs/
-*.sim/
-*.gen/
+
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+.gen/
+
+# Vitis
+*.elf
+.sdk/
+
+# Python cache
+__pycache__/
 
 # OS
 .DS_Store
